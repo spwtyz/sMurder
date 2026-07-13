@@ -1,0 +1,19 @@
+Enabled: true
+ServerName: AltaMC
+DisplayName: "&b&lEvento Custom"
+ScoreboardTitle: "&b&lAltaMC Event"
+MenuPrefix: "&b✦ &f"
+ShopTitle: "&b&lLoja do Evento"
+MysteryBoxName: "&b&lEvent Crate"
+MysteryBoxLore:
+- "&7Edite este arquivo para criar"
+- "&7seu próprio evento."
+LobbyItemName: "&b✦ Loja do Evento &7(Clique)"
+LobbyMessage: "&b✦ Evento custom ativo na AltaMC!"
+PrimaryColor: "&b"
+SecondaryColor: "&f"
+Particles: true
+CosmeticCategoryName: "&bCosméticos do Evento"
+ExclusiveLore:
+- "&7Cosmético sazonal."
+- "&7Disponível durante este evento."

@@ -1,0 +1,128 @@
+
+# Se vai ou nao abrir o menu usando o comando "scosmeticos"
+comando_abrir_cosmeticos: false
+
+# Cosmeticos
+
+# Se vai ou nao abrir o menu usando o comando "scosmeticos"
+comando_abrir_cosmeticos: true
+
+backend:
+type: sqlite
+
+firework:
+ instant-explode: false
+ firework-height: 3
+ power: 1
+ type: BALL
+ flicker: false
+ trail: false
+ colors:
+ - YELLOW
+ fade:
+ - WHITE
+# Sistema de chat/tag
+chat:
+ global-format: '&8[&aG&8] %tag%&f%player% &8» &f%message%'
+ local-format: '&8[&eL&8] %tag%&f%player% &8» &7%message%'
+ local-radius: 50
+ local-default: false
+
+tags:
+ shadow:
+  display: '&8✦ The Shadow'
+  permission: ''
+  description: '&7Título sombrio da loja.'
+ blood:
+  display: '&c☠ Blood Reaper'
+  permission: ''
+  description: '&7Título de ceifador sangrento.'
+ nightmare:
+  display: '&5☽ Nightmare'
+  permission: ''
+  description: '&7Título de pesadelo.'
+
+death-hologram-enabled: false
+
+death-corpse-enabled: false
+
+death-sound-enabled: false
+
+# Ranked zone V3
+ranked-zone:
+ enabled: false
+ start-delay-seconds: 120
+ initial-radius: 80
+ min-size: 18
+ shrink-interval-seconds: 10
+ shrink-amount: 3
+ damage: 1.0
+ visible: true
+ visual-step: 4.0
+ visual-height: 3
+ visual-every-seconds: 1
+
+# Lunar Client Apollo Rich Presence
+# Requer o plugin Apollo instalado no servidor e o servidor configurado no ServerMappings do Lunar.
+LunarRichPresence:
+  Enabled: true
+  Server-Name: 'sMurder'
+  Game-Name: 'Murder'
+  Default-Map: 'Lobby'
+
+
+HideAndSeek:
+  Hide-Time: 30
+  # Radar do Procurador libera apenas quando faltar esse tempo para acabar a partida.
+  Radar-Unlock-Seconds: 60
+
+# Ranked: tempo de partida em segundos. 600 = 10 minutos.
+ranked:
+  match-time-seconds: 600
+
+# Mapas exclusivos do modo Esconde-Esconde.
+# Coloque aqui o nome das arenas/mapas que só devem aparecer nesse modo.
+hide-and-seek:
+  maps: []
+  radar-unlock-seconds: 60
+
+RoomStaff:
+  DisabledModes: []
+  DisabledModifiers: []
+
+# Ranked agora fica reservado para salas publicas.
+ranked:
+  public-room-max-players: 20
+  match-time-seconds: 600
+
+# Modo Sabotage estilo Among Us / Murder.
+sabotage-mode:
+  enabled: false
+  tasks-to-win: 100
+  meeting-enabled: false
+  meeting-time-seconds: 25
+
+# TNTTag extras
+# Radar aponta para jogador vivo mais proximo; velocidade so para quem esta com TNT.
+tnt-tag:
+  speed-cooldown-seconds: 18
+  speed-duration-seconds: 5
+  speed-amplifier: 1
+
+# Desempenho: Replay/KillCam desativados nesta versao para teste de lag.
+replay:
+  enabled: false
+ranked-killcam:
+  enabled: false
+
+
+kits:
+  chance-murder-percent: 20
+  chance-detective-percent: 20
+
+# Eventos sazonais da AltaMC
+# Active: NONE, HALLOWEEN, CHRISTMAS, EASTER, CUSTOM
+# Textos/temas completos ficam em plugins/sMurder/events/*.yml
+ServerName: AltaMC
+SeasonalEvents:
+  Active: NONE

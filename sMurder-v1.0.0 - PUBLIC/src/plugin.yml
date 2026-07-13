@@ -1,0 +1,15 @@
+name: sMurder
+main: me.spwtyz.murder.Main
+author: spwtyz
+version: 1.2
+softdepend: [HolographicDisplays, Citizens, LuckPerms]
+commands:
+ murder:
+ m:
+ head:
+ tag:
+  aliases: [tags, titulo, titulos]
+ g:
+  aliases: [global]
+ local:
+  aliases: [l]

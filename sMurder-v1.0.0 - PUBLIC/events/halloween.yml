@@ -1,0 +1,19 @@
+Enabled: true
+ServerName: AltaMC
+DisplayName: "&6&lHalloween"
+ScoreboardTitle: "&6&lAltaMC Halloween"
+MenuPrefix: "&6🎃 &e"
+ShopTitle: "&6&lLoja Assombrada"
+MysteryBoxName: "&6&lHalloween Crate"
+MysteryBoxLore:
+- "&7Evento especial de Halloween."
+- "&7Cosméticos sombrios e raros."
+LobbyItemName: "&6🎃 Loja Assombrada &7(Clique)"
+LobbyMessage: "&6🎃 Evento de Halloween ativo na AltaMC!"
+PrimaryColor: "&6"
+SecondaryColor: "&e"
+Particles: true
+CosmeticCategoryName: "&6Cosméticos de Halloween"
+ExclusiveLore:
+- "&7Cosmético sazonal."
+- "&7Disponível durante o Halloween."

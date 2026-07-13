@@ -1,0 +1,19 @@
+Enabled: true
+ServerName: AltaMC
+DisplayName: "&c&lNatal"
+ScoreboardTitle: "&c&lAltaMC Natal"
+MenuPrefix: "&c🎄 &f"
+ShopTitle: "&c&lLoja Natalina"
+MysteryBoxName: "&c&lChristmas Crate"
+MysteryBoxLore:
+- "&7Evento especial de Natal."
+- "&7Presentes, neve e cosméticos limitados."
+LobbyItemName: "&c🎄 Loja Natalina &7(Clique)"
+LobbyMessage: "&c🎄 Evento de Natal ativo na AltaMC!"
+PrimaryColor: "&c"
+SecondaryColor: "&f"
+Particles: true
+CosmeticCategoryName: "&cCosméticos de Natal"
+ExclusiveLore:
+- "&7Cosmético sazonal."
+- "&7Disponível durante o Natal."

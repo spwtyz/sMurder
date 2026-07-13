@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Arquivos Meus/All/Todois/Dependencies/CorpseReborn 2.16.0 BETA.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivos Meus/All/Todois/Dependencies/Spigot/spigot-1.8-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivos Meus/All/Todois/Dependencies/Spigot/spigot-1.12.2.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivos Meus/All/Todois/Dependencies/ActionBarAPI-1.5.4.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivos Meus/All/Todois/Plugins/HolographicDisplays.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivos Meus/All/Todois/Dependencies/Citizens.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivos Meus/All/Todois/Dependencies/citizens-2.0.16-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivos Meus/All/Todois/Dependencies/PlaceholderAPI-2.9.2.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivos Meus/All/Todois/Dependencies/ProtocolLib (1).jar"/>
+	<classpathentry kind="lib" path="D:/Arquivos Meus/All/Todois/Dependencies/MVdWPlaceholderAPI.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

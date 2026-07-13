@@ -1,0 +1,19 @@
+Enabled: true
+ServerName: AltaMC
+DisplayName: "&d&lPascoa"
+ScoreboardTitle: "&d&lAltaMC Pascoa"
+MenuPrefix: "&d&lPASCOA &f"
+ShopTitle: "&d&lLoja de Pascoa"
+MysteryBoxName: "&d&lEaster Crate"
+MysteryBoxLore:
+- "&7Evento especial de Pascoa."
+- "&7Ovos, coelhos e cosméticos limitados."
+LobbyItemName: "&d&lLoja de Pascoa &7(Clique)"
+LobbyMessage: "&dEvento de Pascoa ativo na AltaMC!"
+PrimaryColor: "&d"
+SecondaryColor: "&f"
+Particles: true
+CosmeticCategoryName: "&dCosméticos de Pascoa"
+ExclusiveLore:
+- "&7Cosmético sazonal."
+- "&7Disponivel durante a Pascoa."
